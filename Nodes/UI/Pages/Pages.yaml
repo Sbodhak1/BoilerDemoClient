@@ -1528,7 +1528,7 @@ Children:
         Id: g=2695fa8432fd49264087f3beb5b1160e
         Type: DataBind
         DataType: NodePath
-        Value: "/Objects/BoilerDemoClient/DataStores/EmbeddedDatabase"
+        Value: "/Objects/BoilerDemoClient/OPC-UA/OPCUAClient/Objects/Boiler_Test_SB/DataStores/EmbeddedDatabase@NodeId"
     - Name: Query
       Id: g=a36514c3dfe1d0ed7111bf6361262779
       Type: BaseDataVariableType
@@ -2182,7 +2182,7 @@ Children:
         Id: g=15f181c88186d5a647f49694e15d92d3
         Type: DataBind
         DataType: NodePath
-        Value: "/Objects/BoilerDemoClient/DataStores/EmbeddedDatabase"
+        Value: "/Objects/BoilerDemoClient/OPC-UA/OPCUAClient/Objects/Boiler_Test_SB/Loggers/AlarmsEventLogger"
         Children:
         - Name: Mode
           Id: g=4124d2e8e97f45ae363c619cefbe7181
