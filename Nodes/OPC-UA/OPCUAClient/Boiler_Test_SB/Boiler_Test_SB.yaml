@@ -1,0 +1,104 @@
+Name: ns=43;Boiler_Test_SB
+Id: ns=43;g=7552f9d326d044d670694582c6d00622
+Type: ProjectFolder
+DisplayName: {"LocaleId":"","Text":"Boiler_Test_SB"}
+Children:
+- Name: BranchingEnabled
+  Id: ns=43;g=2cfcf3e6db90513c94a34b1a102cb8e5
+  Type: BaseDataVariableType
+  DataType: Boolean
+  DisplayName: {"LocaleId":"","Text":"BranchingEnabled"}
+  Value: false
+- Name: Locales
+  Id: ns=43;g=38ecea323c7650c1035f010d9b62afcf
+  Type: BaseDataVariableType
+  DataType: String
+  DisplayName: {"LocaleId":"","Text":"Locales"}
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+  Value: ["en-US","it-IT"]
+- Name: LocaleFallbackList
+  Id: ns=43;g=0cb34e9bb9ca0cb973e162877c78dfc9
+  Type: BaseDataVariableType
+  DataType: String
+  DisplayName: {"LocaleId":"","Text":"LocaleFallbackList"}
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+  Value: ["en-US"]
+- File: UI/UI.yaml
+- File: Model/Model.yaml
+- File: Converters/Converters.yaml
+- File: Alarms/Alarms.yaml
+- File: Recipes/Recipes.yaml
+- File: Loggers/Loggers.yaml
+- File: DataStores/DataStores.yaml
+- File: Reports/Reports.yaml
+- File: 'OPC-UA/OPC-UA.yaml'
+- File: CommDrivers/CommDrivers.yaml
+- File: NetLogic/NetLogic.yaml
+- File: Security/Security.yaml
+- File: Translations/Translations.yaml
+- File: Retentivity/Retentivity.yaml
+- Name: DefaultUserFolder
+  Id: ns=43;g=883d5df8410ef6cbd4ff1b3a05c8562f
+  Type: NodePointer
+  DataType: NodeId
+  DisplayName: {"LocaleId":"","Text":"DefaultUserFolder"}
+  Value: {"IdType":2,"Id":"4ab8a898655d1fdff87d6980ad47e730","Namespace":43}
+  Children:
+  - Name: Kind
+    Id: ns=43;g=17b3a40067b51cb4f64eaea4af96c762
+    Type: PropertyType
+    DataType: NodeId
+    DisplayName: {"LocaleId":"","Text":"Kind"}
+    Value: {"Id":61}
+- Name: ns=43;RecipeSchema
+  Id: ns=43;g=c1937ac47afd4b70b674a970185817f3
+  Type: Alias
+  DataType: NodeId
+  DisplayName: {"LocaleId":"","Text":"RecipeSchema"}
+  Value: {"IdType":2,"Id":"e75a581c78bcfb3bf5d1f26f14b1514f","Namespace":43}
+  Children:
+  - Name: Kind
+    Id: ns=43;g=9afbb306e524dd47bba40efc1bfaa9a5
+    Type: PropertyType
+    DataType: NodeId
+    DisplayName: {"LocaleId":"","Text":"Kind"}
+    Value: {"IdType":2,"Id":"6e92df5365a242ea9a45b1efe8bdd220","Namespace":43}
+- Name: MeasurementSystemMap
+  Id: ns=43;g=be9be95f4a0297bfe8bd56d4667bc3eb
+  Type: BaseDataVariableType
+  DataType: MeasurementSystemMapItem
+  DisplayName: {"LocaleId":"","Text":"MeasurementSystemMap"}
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+  Value: []
+- Name: PasswordPolicy
+  Id: ns=43;g=bc8e491b19335b1bd7d6401caeb878aa
+  Type: PasswordPolicy
+  DisplayName: {"LocaleId":"","Text":"PasswordPolicy"}
+  Children:
+  - Name: MaximumPasswordAge
+    Id: ns=43;g=1b12e6f3f9dd67dd577a205d1beb6dab
+    Type: PropertyType
+    DataType: UInt16
+    DisplayName: {"LocaleId":"","Text":"MaximumPasswordAge"}
+    Value: 0
+  - Name: EnforcePasswordHistory
+    Id: ns=43;g=c99bd03fdd6f50b9e5a69305243a39eb
+    Type: PropertyType
+    DataType: Byte
+    DisplayName: {"LocaleId":"","Text":"EnforcePasswordHistory"}
+    Value: 0
+  - Name: MinimumPasswordAge
+    Id: ns=43;g=7f1b25177c74fcbdf55b1a1707d7f071
+    Type: PropertyType
+    DataType: UInt16
+    DisplayName: {"LocaleId":"","Text":"MinimumPasswordAge"}
+    Value: 0
+  - Name: MinimumPasswordLength
+    Id: ns=43;g=b7fad6cfa819df3d6d75b77ff5729f73
+    Type: PropertyType
+    DataType: Byte
+    DisplayName: {"LocaleId":"","Text":"MinimumPasswordLength"}
+    Value: 0

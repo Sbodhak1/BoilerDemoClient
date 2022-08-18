@@ -1,0 +1,6 @@
+Name: ns=43;EthernetIPDriver
+Id: ns=43;g=0869e6da9de1eee46c88e195f15a5af6
+Type: EthernetIPDriver
+DisplayName: {"LocaleId":"","Text":"EthernetIPDriver"}
+Children:
+- File: EthernetIPStation/EthernetIPStation.yaml

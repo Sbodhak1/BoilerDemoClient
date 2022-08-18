@@ -1,0 +1,47 @@
+Name: ns=43;Users
+Id: ns=43;g=4ab8a898655d1fdff87d6980ad47e730
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"Users"}
+Children:
+- Name: ns=43;Guest
+  Id: ns=43;g=d668144ed22442ebfea96dea35a5525f
+  Type: UserType
+  DisplayName: {"LocaleId":"","Text":"Guest"}
+  Children:
+  - Name: Password
+    Id: ns=43;g=3d464415df5780ace582e170acbabeb6
+    Type: Password
+    DataType: Password
+    DisplayName: {"LocaleId":"","Text":"Password"}
+    ReferenceType: HasProperty
+    Value: ""
+    Children:
+    - Name: Hash
+      Id: ns=43;g=20bc1e1cc4612ef3a314556e711b0df6
+      Type: PropertyType
+      DataType: PasswordHash
+      DisplayName: {"LocaleId":"","Text":"Hash"}
+      Value: {"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[32,191,81,224,72,108,180,207,116,214,142,174,70,190,187,216,216,226,17,152,114,50,41,218,186,174,160,156,87,208,116,11],"Salt":[112,15,66,215,109,214,42,59,56,6,125,17,117,123,169,251,93,245,197,194,153,95,75,100,1,62,80,219,199,135,247,13]}}
+    - Name: ChangeTimestamp
+      Id: ns=43;g=0def3b5dd866594510e8dd680b251144
+      Type: PropertyType
+      DataType: UtcTime
+      DisplayName: {"LocaleId":"","Text":"ChangeTimestamp"}
+      Value: "2022-06-20T13:30:43.0875076"
+    - Name: History
+      Id: ns=43;g=83ea60bf2288f0ad1f6b4a22cb2b0f58
+      Type: PropertyType
+      DataType: PasswordHash
+      DisplayName: {"LocaleId":"","Text":"History"}
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: []
+  - Name: LocaleIds
+    Id: ns=43;g=25bb9363c78046bea641588972588b6b
+    Type: BaseVariableType
+    DataType: LocaleId
+    DisplayName: {"LocaleId":"","Text":"LocaleIds"}
+    ReferenceType: HasProperty
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]

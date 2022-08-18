@@ -1,0 +1,18 @@
+Name: OPCUATagImporter
+Id: g=aee4efd7d27a6f5738e430f7d36077c1
+Type: OPCUAImporter
+OwnerId: ns=2;g=9f78eb2f1f373feb2ad5ccb7e29a5e21
+Children:
+- Name: IgnoredPLCItems
+  Id: g=3afbd6f0ac36cbf1a04758307bad126e
+  Type: BaseDataVariableType
+  DataType: BaseDataType
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+- Name: IgnoredHMIItems
+  Id: g=d1caab75224ae198a14833aa4a9ca5c0
+  Type: BaseDataVariableType
+  DataType: NodeId
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+  Value: []
