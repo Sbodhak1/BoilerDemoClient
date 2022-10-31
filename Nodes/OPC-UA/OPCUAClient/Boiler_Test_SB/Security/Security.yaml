@@ -1,7 +1,0 @@
-Name: ns=43;Security
-Id: ns=43;g=494f978feb4234f3c5927a2741a5a22a
-Type: FolderType
-DisplayName: {"LocaleId":"","Text":"Security"}
-Children:
-- File: Users/Users.yaml
-- File: Groups/Groups.yaml

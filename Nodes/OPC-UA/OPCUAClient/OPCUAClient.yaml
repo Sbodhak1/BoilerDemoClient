@@ -62,7 +62,7 @@ Children:
         Id: g=73e4a2c97f28f11f81f1f7c669e7bc4f
         Type: DataBind
         DataType: NodePath
-        Value: "OPC-UA/OPCUAClient/Objects/Boiler_Test_SB/DataStores"
+        Value: "OPC-UA/OPCUAClient/Objects/Boiler_Test/DataStores"
         Children:
         - Name: Mode
           Id: g=ad91738e052bb04ed754759d702b1d2e
@@ -120,4 +120,4 @@ Children:
   Id: g=8aed3287c68601a1e0cdbc6434f7ecf2
   Type: BaseObjectType
   Children:
-  - File: Boiler_Test_SB/Boiler_Test_SB.yaml
+  - File: Boiler_Test/Boiler_Test.yaml

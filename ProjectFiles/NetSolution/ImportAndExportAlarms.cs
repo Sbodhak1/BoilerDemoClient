@@ -11,9 +11,13 @@ using FTOptix.OPCUAServer;
 using FTOptix.NetLogic;
 using FTOptix.CoreBase;
 using FTOptix.EventLogger;
+using FTOptix.Alarm;
+using FTOptix.Recipe;
+using FTOptix.DataLogger;
 using FTOptix.SQLiteStore;
 using FTOptix.Store;
-using FTOptix.Alarm;
+using FTOptix.EthernetIP;
+using FTOptix.CommunicationDriver;
 using FTOptix.Core;
 #endregion
 

@@ -1,0 +1,103 @@
+Name: ns=54;Recipes
+Id: ns=54;g=1aadf45ab7ec31aaa239bfe313ed89bd
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"Recipes"}
+Children:
+- Name: ns=54;RecipeSchema
+  Id: ns=54;g=21cc33b08070fdf105c085f939188c50
+  Type: RecipeSchema
+  DisplayName: {"LocaleId":"","Text":"RecipeSchema"}
+  Children:
+  - Name: Root
+    Id: ns=54;g=511f8014c7b300b87c1b00728e630965
+    Type: BaseObjectType
+    DisplayName: {"LocaleId":"","Text":"Root"}
+    Children:
+    - Name: ns=54;BoilerLevelSetpoint
+      Id: ns=54;g=e49ded143d5e38bedad89d2f34fb2d23
+      Type: BaseDataVariableType
+      DataType: Int32
+      DisplayName: {"LocaleId":"","Text":"BoilerLevelSetpoint"}
+      Value: 0
+    - Name: ns=54;BoilerTempSetpoint
+      Id: ns=54;g=d7fc3a83e39761a41d802325f5711ea3
+      Type: BaseDataVariableType
+      DataType: Int32
+      DisplayName: {"LocaleId":"","Text":"BoilerTempSetpoint"}
+      Value: 0
+  - Class: Reference
+    Target: ns=47;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=47;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=47;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=47;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=47;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=47;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=47;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=47;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=47;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=47;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=47;i=60
+    Direction: Forward
+  - Name: Store
+    Id: ns=54;g=caf353f161a57fcd6849ef5d3a2102b1
+    Type: NodePointer
+    DataType: NodeId
+    DisplayName: {"LocaleId":"","Text":"Store"}
+    Value: {"IdType":2,"Id":"b64b1a3c83f8b66c8afbfccb5cec04d9","Namespace":54}
+    Children:
+    - Name: Kind
+      Id: ns=54;g=d2613d8ab5251ffdb95397f526f521cb
+      Type: PropertyType
+      DataType: NodeId
+      DisplayName: {"LocaleId":"","Text":"Kind"}
+      Value: {"Id":1,"Namespace":34}
+  - Name: TargetNode
+    Id: ns=54;g=10ed49e2c0231ec0b0b0c4c94ff6e9b5
+    Type: NodePointer
+    DataType: NodeId
+    DisplayName: {"LocaleId":"","Text":"TargetNode"}
+    Value: {"IdType":2,"Id":"d3b4a10b5eff7364d74782c172a65b8e","Namespace":54}
+    Children:
+    - Name: Kind
+      Id: ns=54;g=e2399b1b4480348e5fe1223256c21d5a
+      Type: PropertyType
+      DataType: NodeId
+      DisplayName: {"LocaleId":"","Text":"Kind"}
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: ns=54;EditModel
+    Id: ns=54;g=e75a581c78bcfb3bf5d1f26f14b1514f
+    Type: BaseObjectType
+    DisplayName: {"LocaleId":"","Text":"EditModel"}
+    Children:
+    - Name: ns=54;BoilerLevelSetpoint
+      Id: ns=54;g=622101413ed31e366c116f40dc478b7f
+      Type: BaseDataVariableType
+      DataType: Int32
+      DisplayName: {"LocaleId":"","Text":"BoilerLevelSetpoint"}
+      Value: 0
+    - Name: ns=54;BoilerTempSetpoint
+      Id: ns=54;g=69343b71941bae758bdfde45be0d3b88
+      Type: BaseDataVariableType
+      DataType: Int32
+      DisplayName: {"LocaleId":"","Text":"BoilerTempSetpoint"}
+      Value: 0

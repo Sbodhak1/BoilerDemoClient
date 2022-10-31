@@ -21,7 +21,7 @@ using FTOptix.CommunicationDriver;
 using FTOptix.Core;
 #endregion
 
-public class AuditLogic : BaseNetLogic
+public class MainLogic : BaseNetLogic
 {
     public override void Start()
     {

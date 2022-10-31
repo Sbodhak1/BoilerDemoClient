@@ -190,5 +190,11 @@ Project:
    Uri: 'urn:FTOptix:EthernetIP:Net'
    Module: FTOptix.EthernetIP.Net
    Version: 1.0
+  53:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#Boiler_Test_SB_RA'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  54:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#Boiler_Test'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
  Nodes:
  - File: Nodes/BoilerDemoClient.yaml

@@ -1,0 +1,24 @@
+Name: ns=54;NetLogic
+Id: ns=54;g=6a96deddc16e9647e90618d79df80db2
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"NetLogic"}
+Children:
+- Name: ns=54;AuditLogic
+  Id: ns=54;g=8fd4962d64797a7cce62722026f2b3c8
+  Type: NetLogic
+  DisplayName: {"LocaleId":"","Text":"AuditLogic"}
+  Children:
+  - Class: Method
+    Name: ns=54;InsertRow
+    Id: ns=54;g=294a64617fb849add751d30a9a091a1c
+    DisplayName: {"LocaleId":"","Text":"InsertRow"}
+    Children:
+    - Name: ns=0;InputArguments
+      Id: ns=54;g=c89353ca4c16fb4a595730fed23f8715
+      Type: BaseVariableType
+      DataType: Argument
+      DisplayName: {"LocaleId":"","Text":"InputArguments"}
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"recipeName","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"recipeAction","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]

@@ -1,0 +1,33 @@
+Name: 'ns=54;OPC-UA'
+Id: ns=54;g=97084ed49420f730bc0d0da91f3c7602
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"OPC-UA"}
+Children:
+- File: OPCUAClient/OPCUAClient.yaml
+- Name: ns=54;OPCUAServer
+  Id: ns=54;g=a1dcb6ab529ad070dea09e4947be01b4
+  Type: OPCUAServer
+  DisplayName: {"LocaleId":"","Text":"OPCUAServer"}
+  Children:
+  - Name: EndpointURL
+    Id: ns=54;g=46a9a1fab0c2805c3bbad82868339a7f
+    Type: PropertyType
+    DataType: ResourceUri
+    DisplayName: {"LocaleId":"","Text":"EndpointURL"}
+    Value: "opc.tcp://localhost:59200"
+  - Name: NodesToPublish
+    Id: ns=54;g=f9df05bf308940613002018ed1f5d57e
+    Type: BaseObjectType
+    DisplayName: {"LocaleId":"","Text":"NodesToPublish"}
+  - Name: MinimumMessageSecurityMode
+    Id: ns=54;g=35a7a588cfa8e0f360f61e2f778b5f7c
+    Type: PropertyType
+    DataType: ns=18;MessageSecurityModeEnum
+    DisplayName: {"LocaleId":"","Text":"MinimumMessageSecurityMode"}
+    Value: 0
+  - Name: MinimumSecurityPolicy
+    Id: ns=54;g=998e4fe1f0f2d3d2a5387a72da203d14
+    Type: PropertyType
+    DataType: ns=18;SecurityPolicyEnum
+    DisplayName: {"LocaleId":"","Text":"MinimumSecurityPolicy"}
+    Value: 0
